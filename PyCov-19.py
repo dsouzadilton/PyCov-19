@@ -6,9 +6,9 @@ import re
 import threading
 import time
 
-API_KEY = "trzT2MJwxmbj"
-PROJECT_TOKEN = "tTaT5zmURFw3"
-RUN_TOKEN = "tTaT5zmURFw3"
+API_KEY = "trzT2MJ***"
+PROJECT_TOKEN = "tTaT5***"
+RUN_TOKEN = "tTaT5zm****"
 
 
 class Data:
@@ -98,7 +98,7 @@ def get_audio():
 
 
 def main():
-    print("\n>>>Covid-19 Cases Tracker using Web-scraping \n>>>(With Voice Command Assistance & Audio Feedback)\n\n>>>Authors: @Dilton D'souza and @Nigel Fernandes")
+    print("\n>>>Covid-19 Cases Tracker using Web-scraping \n>>>(With Voice Command Assistance & Audio Feedback)\n\n>>>Author: @Dilton D'souza")
     data = Data(API_KEY, PROJECT_TOKEN)
     END_PHRASE = "stop"
     UPDATE_COMMAND = "update"
